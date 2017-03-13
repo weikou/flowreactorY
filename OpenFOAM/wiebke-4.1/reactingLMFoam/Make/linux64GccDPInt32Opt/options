@@ -1,0 +1,55 @@
+# 1 "Make/options"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 8 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+
+# 17 "/usr/include/stdc-predef.h" 3 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 8 "<command-line>" 2
+# 1 "Make/options"
+EXE_INC = -I /opt/openfoam4/src/finiteVolume/lnInclude -I /opt/openfoam4/src/fvOptions/lnInclude -I /opt/openfoam4/src/meshTools/lnInclude -I /opt/openfoam4/src/sampling/lnInclude -I /opt/openfoam4/src/TurbulenceModels/turbulenceModels/lnInclude -I /opt/openfoam4/src/thermophysicalModels/specie/lnInclude -I /opt/openfoam4/src/thermophysicalModels/reactionThermo/lnInclude -I /opt/openfoam4/src/thermophysicalModels/basic/lnInclude -I /opt/openfoam4/src/thermophysicalModels/chemistryModel/lnInclude -I /opt/openfoam4/src/ODE/lnInclude -I /opt/openfoam4/src/combustionModels/lnInclude -I /opt/openfoam4/src/TurbulenceModels/compressible/turbulentFluidThermoModels -I /opt/openfoam4/src/TurbulenceModels/compressible/lnInclude/ -I /opt/openfoam4/src/transportModels/compressible/lnInclude/ 
+# 17 "Make/options"
+EXE_LIBS = 	-lfiniteVolume 	-lfvOptions 	-lmeshTools 	-lsampling 	-lcompressibleTurbulenceModels 	-lturbulenceModels 	-lreactionThermophysicalModels 	-lspecie 	-lcompressibleTransportModels 	-lfluidThermophysicalModels 	-lchemistryModel 	-lODE 	-lcombustionModels 

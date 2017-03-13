@@ -1,0 +1,30 @@
+EXE_INC = \
+    -I /opt/openfoam4/src/finiteVolume/lnInclude \
+    -I /opt/openfoam4/src/fvOptions/lnInclude \
+    -I /opt/openfoam4/src/meshTools/lnInclude \
+    -I /opt/openfoam4/src/sampling/lnInclude \
+    -I /opt/openfoam4/src/TurbulenceModels/turbulenceModels/lnInclude \
+    -I /opt/openfoam4/src/thermophysicalModels/specie/lnInclude \
+    -I /opt/openfoam4/src/thermophysicalModels/reactionThermo/lnInclude \
+    -I /opt/openfoam4/src/thermophysicalModels/basic/lnInclude \
+    -I /opt/openfoam4/src/thermophysicalModels/chemistryModel/lnInclude \
+    -I /opt/openfoam4/src/ODE/lnInclude \
+    -I /opt/openfoam4/src/combustionModels/lnInclude \
+    -I /opt/openfoam4/src/TurbulenceModels/compressible/turbulentFluidThermoModels \
+    -I /opt/openfoam4/src/TurbulenceModels/compressible/lnInclude/  \
+    -I /opt/openfoam4/src/transportModels/compressible/lnInclude/  \
+
+EXE_LIBS = \
+	-lfiniteVolume \
+	-lfvOptions \
+	-lmeshTools \
+	-lsampling \
+	-lcompressibleTurbulenceModels \
+	-lturbulenceModels \
+	-lreactionThermophysicalModels \
+	-lspecie \
+	-lcompressibleTransportModels \
+	-lfluidThermophysicalModels \
+	-lchemistryModel \
+	-lODE \
+	-lcombustionModels \
