@@ -10,8 +10,8 @@ tmp<fv::convectionScheme<scalar> > mvConvection
 );
 
 {
-    reaction->correct();
-    dQ = reaction->dQ();
+    reaction->correct(); //correction
+    dQ = reaction->dQ(); 
     label inertIndex = -1;
     volScalarField Yt(0.0*Y[0]);
 
